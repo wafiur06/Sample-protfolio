@@ -17,7 +17,14 @@
     border-radius: 5px;
     background: orange;
 }
-
+.header{
+    background: #fff8f3;
+    background-image: url('../image/devl.png');
+    background-repeat: no-repeat;
+    background-position: bottom right -150px;
+    background-size: 600px;
+    bac
+}
 /* header and navigation styles */
 nav {
     display: flex;
@@ -38,4 +45,70 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 70px;
+}
+/* banner styles */
+.banner{
+    display:flex ;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 54px;
+
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+.banner-discription{
+    color: #757575;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section style */
+
+.about{
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 31px;
+
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
