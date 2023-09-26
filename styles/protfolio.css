@@ -22,21 +22,22 @@
     background: #fff8f3;
     background-image: url('../image/devl.png');
     background-repeat: no-repeat;
-    background-position: bottom right -150px;
+    background-position: bottom right -175px;
     background-size: 600px;
-    bac
+    
 }
 
 /* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 100px;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 450;
+    margin-top: 19px;
 }
 
 nav ul {
@@ -53,7 +54,11 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin: 0 200px;
+    /* margin: 0 110px; */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 120px;
 }
 
 .banner-title {
