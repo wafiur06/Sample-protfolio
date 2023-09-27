@@ -17,6 +17,16 @@
     border-radius: 5px;
     background: orange;
 }
+.btn-contact{
+    color: orange;
+    font-weight: 700px;
+    font-size: 20px;
+    border-color: orange;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+}
 
 .header {
     background: #fff8f3;
