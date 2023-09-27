@@ -212,7 +212,11 @@ section {
     background: #fff8f3;
     padding: 130px 200px;
 }
-
+.contract a{
+    width: 100px;
+    height: 100px;
+    color: orange;
+}
 .contract .section-title {
     text-align: left;
 }
